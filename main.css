@@ -1,6 +1,7 @@
 
   /* Remove the navbar's default margin-bottom and rounded borders */
-  body { background-color:#363636;font-family: "Arial", Helvetica, sans-serif;
+  body { background-color:#544F80;
+    font-family: "Arial", Helvetica, sans-serif;
   }
 
   hr {
@@ -49,14 +50,9 @@
   .row.content {height: 100%; 
   }
 
-  /* Set gray background color and 100% height */
-  .sidenav {
-    padding-top: 20px;
-    background-color: #363636;
-  }
 
   .col-sm-8 {
-    background-color:#bcbcbc;
+    background-color:#EDEBFF;
   }
 
   #issue{
