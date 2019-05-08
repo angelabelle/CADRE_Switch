@@ -1,10 +1,10 @@
 
   /* Remove the navbar's default margin-bottom and rounded borders */
-  body { background-color:#363636;font-family: "Arial", Helvetica, sans-serif;}
+  body { background-color:#5b5b5b;font-family: "Arial", Helvetica, sans-serif;}
   .navbar {
     margin-bottom: 0;
     border:none;
-    background-color:#363636;
+    background-color:#5b5b5b;
     height:100px;
   }
 
@@ -14,7 +14,7 @@
   /* Set gray background color and 100% height */
   .sidenav {
     padding-top: 20px;
-    background-color: #363636;
+    background-color: #5b5b5b;
   }
 
   .col-sm-8 {
@@ -25,12 +25,12 @@
     margin-top: 0px;
     margin-bottom: 0px;
     border: 0;
-    border-top: 1px solid #59e8ff;
+    border-top: 1px solid #5b5b5b;
   }
 
   /* Set black background color, white text and some padding */
   footer {
-    background-color: #dddddd;
+    background-color: #5b5b5b;
     color: white;
     padding: 15px;
   }
