@@ -13,7 +13,7 @@
   }
 
   p{
-    color: #59e8ff;
+    color: #000;
   }
 
   /* Set black background color, white text and some padding */
@@ -28,6 +28,10 @@
     .sidenav {
       height: auto;
       padding: 15px;
+    }
+
+    .bottom{
+      margin-bottom: 30px;
     }
     
   .row.content {height:auto;}
