@@ -1,50 +1,24 @@
 
   /* Remove the navbar's default margin-bottom and rounded borders */
-<<<<<<< HEAD
   body { background-color:#363636;font-family: "Arial", Helvetica, sans-serif;
-=======
-  body { background-color:#5b5b5b;font-family: "Arial", Helvetica, sans-serif;}
-  .navbar {
-    margin-bottom: 0;
-    border:none;
-    background-color:#5b5b5b;
-    height:100px;
-  }
-
-  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-  .row.content {height: 100%; }
-
-  /* Set gray background color and 100% height */
-  .sidenav {
-    padding-top: 20px;
-    background-color: #5b5b5b;
-  }
-
-  .col-sm-8 {
-    background-color:#d6d6d6;
->>>>>>> 53d2a006fa26005e8e53cc3a68d0aa50b9fbd59b
   }
 
   hr {
     margin-top: 0px;
     margin-bottom: 0px;
     border: 0;
-<<<<<<< HEAD
     border-top: 1px solid #59e8ff;
     color:#000000;
-    font-size: 30;
+    size: 30;
   }
 
   p{
     color: #59e8ff;
-=======
-    border-top: 1px solid #5b5b5b;
->>>>>>> 53d2a006fa26005e8e53cc3a68d0aa50b9fbd59b
   }
 
   /* Set black background color, white text and some padding */
   footer {
-    background-color: #5b5b5b;
+    background-color: #dddddd;
     color: white;
     padding: 15px;
   }
