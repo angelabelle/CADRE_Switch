@@ -1,145 +1,126 @@
 @import url('https://fonts.googleapis.com/css?family=Aldrich|Michroma');
-  /* Remove the navbar's default margin-bottom and rounded borders */
-  body { background-color:#544F80;
-    font-family: "Arial", Helvetica, sans-serif;
-  }
 
-  hr {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border: 0;
-    border-top: 1px solid #544F80;
-    color:#000000;
-    size: 30;
-  }
-
-  p{
-    color: #000;
-    font-family: 'Courier New', sans-serif;
-  }
-
-  /* Set black background color, white text and some padding */
-  footer {
-    color: white;
-    padding: 15px;
-    text-align: center;
-  }
-
-  /* On small screens, set height to 'auto' for sidenav and grid */
-  @media screen and (max-width: 767px) {
-    .sidenav {
-      height: auto;
-      padding: 15px;
-    }
-
-    .bottom{
-      margin-bottom: 30px;
-    }
-
-  .row.content {height:auto;}
-  }
-
-
-#myNavbar
-{
-     padding-top:1px;
-     padding-bottom:1px;
-     width:100%;
-     background-color: #544F80;
-
+/* Remove the navbar's default margin-bottom and rounded borders */
+body {
+  background-color: #544F80;
+  font-family: "Arial", Helvetica, sans-serif;
 }
 
+hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid #544F80;
+  color: #000000;
+  size: 30;
+}
 
-li
-{
+p {
+  color: #000;
+  font-family: 'Courier New', sans-serif;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+
+  .bottom {
+    margin-bottom: 30px;
+  }
+
+  .row.content {
+    height: auto;
+  }
+}
+
+#myNavbar {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  width: 100%;
+  background-color: #544F80;
+}
+
+li {
   list-style-type: none;
   display: inline;
-padding: 15px;
-
+  padding: 15px;
 }
 
-a:hover
-{
-
-color: #EDEBFF;
-
-
+a:hover {
+  color: #EDEBFF;
 }
-ul
-{
-padding-left: 0px;
 
+ul {
+  padding-left: 0px;
 }
-  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-  .row.content {
-    height: 100%;
-  }
 
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+  height: 100%;
+}
 
-  .col-sm-8 {
-    background-color:#EDEBFF;
-     border-radius: 5px;
-  }
+.col-sm-8 {
+  background-color: #EDEBFF;
+  border-radius: 5px;
+}
 
-  #issue{
-    color: ;
-    font-size: ;
-  }
+#issue {
+  color: ;
+  font-size: ;
+}
 
-  h1
-  {
-    font-family: 'Michroma', 'Arial Black', sans-serif;
-  }
+h1 {
+  font-family: 'Michroma', 'Arial Black', sans-serif;
+}
 
-  h2
-  {
-    font-family: 'Aldrich', 'Arial Black', sans-serif;
-  }
-
-a
-{
+h2 {
   font-family: 'Aldrich', 'Arial Black', sans-serif;
-  color:#BDBCCC;
+}
+
+a {
+  font-family: 'Aldrich', 'Arial Black', sans-serif;
+  color: #BDBCCC;
   font-variant: small-caps;
   text-decoration: none;
 }
 
-.content
-{
- width: 1180px;
- margin-left:auto;
- margin-right: auto;
- max-width: 100%;
- height: auto;
-
+.content {
+  width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-article
-{
+article {
   padding: 20px;
-
 }
 
-article a
-{
-  color:#000;
+article a {
+  color: #000;
 }
 
-article a:hover
-{
-  color:#bdbccc;
+article a:hover {
+  color: #bdbccc;
 }
 
-.team-image
-{
-  width:100%;
+.team-image {
+  width: 100%;
   height: 200px;
   margin: 0px;
 }
 
-img
-{
-
+img {
   width: 100%;
   height: 100%;
 }

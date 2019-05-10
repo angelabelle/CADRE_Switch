@@ -129,3 +129,8 @@ p{
 
   text-align: center;
 }
+
+div.tab
+{
+  text-indent: 50px;
+}
