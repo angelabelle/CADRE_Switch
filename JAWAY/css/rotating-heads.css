@@ -14,11 +14,13 @@ body
 h1
 {
   font-family: 'Michroma', sans-serif;
+  font-size: 50px;
 }
 
 h2
 {
   font-family: 'Aldrich', sans-serif;
+  font-size: 20px;
 }
 
 h3,p{
@@ -44,7 +46,7 @@ p{
   /* width: 1120px; */
     max-width: 100%;
     margin: 0px auto;
-    text-align: center;
+    /* text-align: center; */
     background-color: #544F80;
     height: 100%;
 }
@@ -85,7 +87,7 @@ p{
 
 .image-holder{
     position: relative;
-    margin: 0px auto;
+    margin: 100px auto;
     width: 260px;
     height: 260px;
 
@@ -113,7 +115,7 @@ p{
 }
 
 .widget{
-    padding: 0px 0px;
+    padding: 30px 0px;
     position: relative;
     top: 0;
     width: auto;
@@ -124,6 +126,6 @@ p{
 
 .header
 {
-  margin-top: 200px;
+
   text-align: center;
 }
