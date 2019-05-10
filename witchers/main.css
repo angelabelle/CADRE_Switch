@@ -84,3 +84,16 @@ font-family: 'Aldrich', 'Arial Black', sans-serif;;
     margin: auto;
   }
 }
+
+a:link, a:visited {
+  background-color: #544F80;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #A89EFF;
+}
