@@ -1,0 +1,29 @@
+body{
+	background-color: #DAEFF9;
+}
+
+h1{
+	text-align: center;
+	font-size: 46px;
+	font-family: courier new;
+	color: #34383B;
+}
+
+p{
+	color: #34383B;
+	font-size: 18px;
+	font-family: courier new;
+
+}
+
+img {
+	width: 15%;
+	height: 10%;
+}
+
+#main {
+	/* Add a left margin to the "page content" that for width of the sidebar (125px) */
+	margin-left: 140px;
+	margin-right: 3%;
+	margin-bottom: 5%;
+}

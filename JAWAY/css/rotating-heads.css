@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich|Michroma');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color:#EDEBFF;
+
+}
+body
+{
+    background-color: #544F80;
+}
+h1
+{
+  font-family: 'Michroma', sans-serif;
+  font-size: 50px;
+}
+
+h2
+{
+  font-family: 'Aldrich', sans-serif;
+  font-size: 20px;
+}
+
+h3,p{
+    font-family: 'Courier New', sans-serif;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+p{
+    font-size: 16px;
+    color: #EDEBFF;
+}
+
+.certificates{
+    font-size: 14px;
+}
+
+.content-wrapper{
+  /* width: 1120px; */
+    max-width: 100%;
+    margin: 0px auto;
+    /* text-align: center; */
+    background-color: #544F80;
+    height: 100%;
+}
+
+.row{
+    width: 100%;
+    position: relative;
+    font-size: 0;
+    height: 260px;
+
+}
+
+.column-1-1,.column-1-3{
+    float: left;
+    min-height: 1px;
+}
+.column-2-3
+{
+  float: right;
+  min-height: 1px;
+}
+
+.column-1-1{
+    width: 100%;
+}
+
+.column-1-3{
+    width: 33.333%;
+}
+
+.column-2-3{
+    width: 33.333%;
+}
+
+.text-holder{
+    display: none;
+}
+
+.image-holder{
+    position: relative;
+    margin: 100px auto;
+    width: 260px;
+    height: 260px;
+
+}
+
+.head-image,.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 260px;
+
+}
+
+.head-image{
+    z-index: 0;
+}
+
+.circle{
+    z-index: 2;
+}
+
+.front{
+    z-index: 1;
+}
+
+.widget{
+    padding: 30px 0px;
+    position: relative;
+    top: 0;
+    width: auto;
+    height: 60vh;
+    overflow: scroll;
+
+}
+
+.header
+{
+
+  text-align: center;
+}
