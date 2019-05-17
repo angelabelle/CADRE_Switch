@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich|Michroma');
+
+h2
+{
+  font-family: 'Michroma', sans-serif;
+  font-size: 20px;
+}
+body{
+    font-family: 'Courier New', sans-serif;
+    margin-bottom: 10px;
+}
+.sidenav {
+  height: 100%;
+  width: 90px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #eee;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}
+
+.sidenav a {
+  padding: 26px 5px 20px 5px;
+  text-decoration: none;
+  font-family: 'Michroma', sans-serif;
+  font-size: 8px;
+  color: grey;
+  display: block;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 15px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
