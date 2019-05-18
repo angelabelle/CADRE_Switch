@@ -1,18 +1,23 @@
 body{
-	background-color: #DAEFF9;
+	background-color: #EDEBFF;
 }
 
 h1{
 	text-align: center;
 	font-size: 46px;
-	font-family: courier new;
-	color: #34383B;
+	font-family: 'Aldrich', 'Arial Black', sans-serif;
+	color: #48436d;
+}
+
+h2{
+	font-family:'Arial';
+	color: #48436d;
 }
 
 p{
 	color: #34383B;
 	font-size: 18px;
-	font-family: courier new;
+	font-family: 'Courier New';
 
 }
 
@@ -21,9 +26,36 @@ img {
 	height: 10%;
 }
 
-#main {
-	/* Add a left margin to the "page content" that for width of the sidebar (125px) */
-	margin-left: 140px;
-	margin-right: 3%;
-	margin-bottom: 5%;
+
+.sidenav{
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #544F80;
+	font-family: 'Arial';
+	overflow-x: hidden;
+	padding-top: 20px; 
 }
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #BDBCCC;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #A89EFF;
+}
+
+.main {
+  margin-left: 165px; /* Same as the width of the sidebar */
+  margin-right: 3%;
+  margin-bottom: 5%;
+}
+
+
