@@ -9,6 +9,21 @@ body{
     font-family: 'Courier New', sans-serif;
     margin-bottom: 10px;
 }
+
+
+
+.clickbait {
+    float: left;
+    margin-left:170px;
+    padding:2px;
+}
+.text{
+  float; left;
+  margin-left:505px;
+    padding:2px;
+
+}
+
 .sidenav {
   height: 100%;
   width: 90px;
