@@ -7,20 +7,21 @@ h2
 }
 body{
     font-family: 'Courier New', sans-serif;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 
 
 .clickbait {
     float: left;
-    margin-left:170px;
-    padding:2px;
+    /* margin-left:170px; */
+    padding-right: 20px;
 }
 .text{
   float; left;
-  margin-left:505px;
-    padding:2px;
+  margin: 55px;
+  /* margin-left:505px; */
+
 
 }
 
@@ -54,5 +55,11 @@ a:hover {
 .main {
   margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 15px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+  padding: 0px  20px;
+}
+
+.main2 {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 15px; /* Increased text to enable scrolling */
+  padding: 0px  20px;
 }
