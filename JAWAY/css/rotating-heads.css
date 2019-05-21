@@ -13,14 +13,16 @@ body
 }
 h1
 {
-  font-family: 'Michroma', sans-serif;
+  font-family: "Michroma", sans-serif;
   font-size: 50px;
+    color: #767580;
 }
 
 h2
 {
   font-family: 'Aldrich', sans-serif;
   font-size: 20px;
+      color: #fff;
 }
 
 h3,p{
@@ -31,6 +33,7 @@ h3,p{
 h3{
     font-size: 24px;
     font-weight: 300;
+
 }
 
 p{
@@ -128,9 +131,21 @@ p{
 {
 
   text-align: center;
+
 }
 
 div.tab
 {
   text-indent: 50px;
+}
+
+.pImage
+{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.title
+{
+  text-align: center;
 }
