@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Aldrich|Michroma');
 
+html{
+  background-color: #edebff;
+}
 h2
 {
   font-family: 'Michroma', sans-serif;
@@ -7,8 +10,52 @@ h2
 }
 body{
     font-family: 'Courier New', sans-serif;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
+
+/* div.ex3 {
+  background-color: lightblue;
+  width: 1000px;
+  height: 110px;
+  overflow: auto;
+} */
+
+
+
+.clickbait {
+    float: left;
+    /* margin-left:170px; */
+    padding-right: 20px;
+    margin-bottom: 10px;
+
+
+}
+
+
+.text{
+  float; left;
+  margin: 55px;
+  width: 1050px;
+  height: 180px;
+  overflow: scroll;
+
+
+
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+
+
 .sidenav {
   height: 100%;
   width: 90px;
@@ -16,7 +63,7 @@ body{
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #eee;
+  background-color: #bdbccc;
   overflow-x: hidden;
   padding-top: 20px;
 
@@ -39,5 +86,11 @@ a:hover {
 .main {
   margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 15px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+  padding: 0px  20px;
+}
+
+.main2 {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 15px; /* Increased text to enable scrolling */
+  padding: 0px  20px;
 }
