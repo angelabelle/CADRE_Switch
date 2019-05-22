@@ -124,10 +124,19 @@ a:hover {
 
 
 .item{
-  width:380px;
+  width:300px;
   text-align:center;
   margin-right: 50px;
-  margin-bottom: 10px;
-  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   float:left;
+}
+
+.item2{
+  width:10000px;
+  text-align:center;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  float:right;
 }
