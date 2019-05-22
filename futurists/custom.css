@@ -61,7 +61,23 @@ img {
 #movie{
 	text-align: center;
 	width: 23%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#clench3{
 	margin-left: 200px;
+}
+
+#clench1{
 
 }
 
+#container {
+    height: 75%;
+    line-height: 75%;
+}
+
+#container img {
+    vertical-align: middle;
+}
